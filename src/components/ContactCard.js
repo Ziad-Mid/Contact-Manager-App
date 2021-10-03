@@ -18,7 +18,10 @@ function ContactCard(props) {
                 </Link>
             </div>
                 <i className="trash alternate outline icon"  onClick={()=>props.clickHandler(id)} ></i>
-
+                <Link to={{pathname:`/edit`, state:{contact : props.contact}}} >
+               
+                <i className="edit alternate outline icon"   ></i>
+                </Link>
         </div>
     )
 }

@@ -21,3 +21,11 @@
     bottom: 0;
     font-size: 25px !important;
 }
+.edit{
+    color: lightblue;
+    position: absolute;
+    top: 2rem;
+    right: 15rem;
+    bottom: 0;
+    font-size: 25px !important;
+}
