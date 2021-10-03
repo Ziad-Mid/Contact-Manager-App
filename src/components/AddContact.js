@@ -14,6 +14,9 @@ export class AddContact extends Component {
     this.props.addContactHandler(this.state)  //to get it in app.js
     console.log(this.state)
     this.setState({name: "" , email: ""})
+
+    this.props.history.push("/")  
+
   }
 
   render() {
